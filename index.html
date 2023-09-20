@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./CSS/style_doc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Cabin:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans:ital,wght@1,500&family=Kanit&family=Mukta:wght@600&family=Oswald&family=Poppins:wght@300&family=Prompt:wght@600&family=Roboto+Condensed&family=Roboto:wght@300;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet"></head>
+
+<body>
+    <section>
+        <nav>
+            <h1><em></em>CodeCAMP SURVEY FORM</em></h1>
+            <p>Thank You for taking time to participate in it.</p>
+        </nav>
+        <section class="menu">
+            <form target="_self" autocomplete="off" enctype="text/plain">
+                <label for="#">Name</label><br>
+                <input type="text" name="Name" placeholder="Enter Your Name" id="#" required><br><br>
+                <label for="##">Email</label><br>
+                <input type="email" name="mail" placeholder="Enter Your Email" id="##" required><br><br>
+                <label for="###">Age (optional)</label><br>
+                <input type="number" name="age" placeholder="Enter Your Age" id="###" required><br><br>
+                <label for="####">Which option best describes your current role?</label><br>
+                <select id="####" required>
+                    <option>Select current role</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer Not To Say</option>
+                    <option>Others</option>
+                </select><br><br>
+                <label>Would you recommend CodeCamp to a friend?</label><br>
+                <input type="radio" name="choose" value="Definitly">Definitly<br>
+                <input type="radio" name="choose" value="Maybe">Maybe<br>
+                <input type="radio" name="choose" value="Not sure">Not sure<br><br>
+                <label for="#####">What is your favorite feature of CodeCamp?</label><br>
+                <select id="#####">
+                    <option>Select current role</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select><br><br>
+                <label>What would you like to see improved? (Check all that apply)</label><br>
+                <input type="checkbox" name="choose" value="Front-end Projects">Front-end Projects<br>
+                <input type="checkbox" name="choose" value="Back-end Projects">Back-end Projects<br>
+                <input type="checkbox" name="choose" value="Data Visualization">Data Visualization<br>
+                <input type="checkbox" name="choose" value="Challenges">Challenges<br>
+                <input type="checkbox" name="choose" value="Open Source Community">Open Source Community<br>
+                <input type="checkbox" name="choose" value="Gitter help rooms">Gitter help rooms<br>
+                <input type="checkbox" name="choose" value="Videos">Videos<br>
+                <input type="checkbox" name="choose" value="City Meetups">City Meetups<br>
+                <input type="checkbox" name="choose" value="Wiki">Wiki<br>
+                <input type="checkbox" name="choose" value="Forum">Forum<br>
+                <input type="checkbox" name="choose" value="Additional Courses">Additional Courses<br><br>
+                <label>Upload Your Profile</label><br>
+                <input type="file" name="photo" value="Upload Profile" required><br><br>
+                <label for="######">Any comments or suggestions?</label><br>
+                <input type="text-area" name="massege" placeholder="Enter Your Comment Here..." id="######" required><br><br><br>
+                <input type="submit" name="submit" value="SUBMIT">
+            </form>
+        </section>
+    </section>
+    <div>
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/24ed9392232693.5e45b4885aef5.jpg" alt=""
+            width="1450rem">
+    </div>
+</body>
