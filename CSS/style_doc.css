@@ -1,22 +1,55 @@
-@media only screen and (min-width:320px) and (max-width:700){
-    nav{
-
-        display: block;
+@media only screen and (min-width:280px) and (max-width:480px){
+    div>img{
+        position: fixed;
+        width: 100%;
+        height: 100%;
     }
     .menu{
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        right:400px;
+    }
+    nav{
+        width: 420px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:770px){
+    div>img{
+        position: fixed;
+        width: 100%;
+        /* height: 100%; */
+    }
+    .menu{
+        position: relative;
+        right:320px;
+    }
+    nav{
+        width: 420px;
+        position: relative;
+        left: 160px;
+    }
+}
+@media only screen and (min-width:770px) and (max-width:1030px){
+    div>img{
+        position: fixed;
+        width: 100%;
+        /* height: 100%; */
+    }
+    .menu{
+        position: relative;
+        right: 200px;
+    }
+    nav{
         display: block;
     }
 }
 div{
     position: relative;
-    top: -1600px;
+    bottom: 1600px;
     z-index: 1;
 }
 div>img{
     position: fixed;
-    opacity:1;
 }
 section{
     position: relative;
@@ -49,8 +82,7 @@ select{
     padding:12px;
 }
 .menu{
-    position: relative;
-    left: 400px;
+    transform: translateX(400px);
     width:33rem;
     padding:50px;
     color: white;
